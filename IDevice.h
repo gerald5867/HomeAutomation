@@ -7,7 +7,10 @@ class IDevice {
 protected:
 	explicit IDevice(long long updateSeconds) : m_updateSeconds(updateSeconds) { s_devices.emplace(this); }
 	virtual ~IDevice() { s_devices.erase(this); }
+
 	virtual void Update() = 0;
+	virtual void TestFunctionality() = 0; //must be thread safe
+
 private:
 	friend class TechnicRoom;
 	long long m_updateSeconds;

@@ -1,6 +1,6 @@
 #pragma once
 enum class GPIOPorts {
-	HVAC_ON = 7,
+	HVAC_TECHNIC_ROOM_ON = 7,
 	AC_IN_ON = 8,
 	RESERVED_RELAI = 3,
 	VENTILATION_ON = 16,

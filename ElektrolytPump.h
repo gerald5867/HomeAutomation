@@ -1,24 +1,26 @@
 #pragma once
-#include <vector>
-#include <memory>
 #include <chrono>
+#include <memory>
 #include "IDevice.h"
 
-class Inverter;
+class IInverterInfo;
 class Relai;
+
 class ElektrolytPump final : public IDevice
 {
 public:
-	explicit ElektrolytPump(const std::vector<std::shared_ptr<Inverter>>& inverter);
+	explicit ElektrolytPump(IInverterInfo& info);
 	~ElektrolytPump();
+
 	virtual void Update() override;
+	virtual void TestFunctionality() override;
 private:
-	bool BatteryIsLoading() const;
 
 	using ClockT = std::chrono::high_resolution_clock;
 	bool m_isRunning = false;
 	ClockT::time_point m_lastRunTime = ClockT::now() - std::chrono::hours(1);
 	std::unique_ptr<Relai> m_pPumpRelai;
-	std::vector<std::shared_ptr<Inverter>> m_pInverter;
+
+	const IInverterInfo& m_inverterInfo;
 };
 

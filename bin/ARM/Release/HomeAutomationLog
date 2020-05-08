@@ -1,0 +1,951 @@
+[2020-05-08 09:12:03.221] [homeAutomationLogger] [info] starting application...
+[2020-05-08 09:12:03.223] [homeAutomationLogger] [info] Testing relai on GPIO : [8]
+[2020-05-08 09:12:03.223] [homeAutomationLogger] [info] Testing relai on GPIO : [8]
+[2020-05-08 09:12:03.223] [homeAutomationLogger] [info] Testing relai on GPIO : [8]
+[2020-05-08 09:12:03.223] [homeAutomationLogger] [info] Testing relai on GPIO : [16]
+[2020-05-08 09:12:03.224] [homeAutomationLogger] [info] Testing relai on GPIO : [1]
+[2020-05-08 09:12:03.224] [homeAutomationLogger] [info] Testing relai on GPIO : [8]
+[2020-05-08 09:12:10.225] [homeAutomationLogger] [debug] 
+Inverter [/dev/ttyUSB1][ Phase2Of3Phase]:
+[2020-05-08 09:12:10.228] [homeAutomationLogger] [debug] {
+  "ACOutputRatingActivePower": 5000,
+  "ACOutputRatingApparentPower": 5000,
+  "ACOutputRatingCurrent": 21.700000762939453,
+  "ACOutputRatingFrequency": 50.0,
+  "ACOutputRatingVoltage": 230.0,
+  "BUSVoltage": 350,
+  "PVChargingPower": 572,
+  "PVInputCurrent": 7,
+  "PVInputVoltage": 205.8000030517578,
+  "batteryBulkVoltage": 50.400001525878906,
+  "batteryChargingCurrent": 7,
+  "batteryDischargeCurrent": 0,
+  "batteryFloatVoltage": 48.0,
+  "batteryRatingVoltage": 48.0,
+  "batteryReChargeVoltage": 44.0,
+  "batteryRedischargeVoltage": 48.0,
+  "batteryType": " User",
+  "batteryUnderVoltage": 40.0,
+  "batteryVoltage": 46,
+  "batteryVoltageFromSCC": 0.0,
+  "chargerSourcePrio": " OnlySolarChargingPermitted",
+  "currentMaxACChargingCurrent": 30,
+  "currentMaxChargingCurrent": 60,
+  "deviceStatus.ChargingStatus": false,
+  "deviceStatus.ChargingStatusAC": false,
+  "deviceStatus.ChargingStatusSCC1": true,
+  "deviceStatus.SCCFirmwareVersion": false,
+  "deviceStatus.addSBUPriority": false,
+  "deviceStatus.batteryVoltageToSteadyWhileCharging": false,
+  "deviceStatus.configurationStatus": false,
+  "deviceStatus.loadStatus": true,
+  "inputVoltageRange": 0,
+  "inverterHeatSinkTemeperature": 37,
+  "machineType": " OffGrid",
+  "outputActivePower": 131,
+  "outputApparentPower": 442,
+  "outputLoadPercent": 8,
+  "outputMode": " Phase2Of3Phase",
+  "outputSourcePrio": "UtilityFirst",
+  "parallelMaxNum": 9,
+  "pvParallelCondition": "OneUnitHasPvConnectedOK",
+  "pvPowerBalance": " PvInputMaxPowerIsSumOfMaxChargedPowerAndLoadsPower",
+  "topology": "Transformerless"
+}
+[2020-05-08 09:12:12.229] [homeAutomationLogger] [debug] 
+Inverter [/dev/ttyUSB2][ Phase3Of3Phase]:
+[2020-05-08 09:12:12.229] [homeAutomationLogger] [debug] {
+  "ACOutputRatingActivePower": 5000,
+  "ACOutputRatingApparentPower": 5000,
+  "ACOutputRatingCurrent": 21.700000762939453,
+  "ACOutputRatingFrequency": 50.0,
+  "ACOutputRatingVoltage": 230.0,
+  "BUSVoltage": 349,
+  "PVChargingPower": 522,
+  "PVInputCurrent": 9,
+  "PVInputVoltage": 203.8000030517578,
+  "batteryBulkVoltage": 50.400001525878906,
+  "batteryChargingCurrent": 9,
+  "batteryDischargeCurrent": 0,
+  "batteryFloatVoltage": 48.0,
+  "batteryRatingVoltage": 48.0,
+  "batteryReChargeVoltage": 44.0,
+  "batteryRedischargeVoltage": 48.0,
+  "batteryType": " User",
+  "batteryUnderVoltage": 40.0,
+  "batteryVoltage": 46,
+  "batteryVoltageFromSCC": 0.0,
+  "chargerSourcePrio": " OnlySolarChargingPermitted",
+  "currentMaxACChargingCurrent": 30,
+  "currentMaxChargingCurrent": 80,
+  "deviceStatus.ChargingStatus": false,
+  "deviceStatus.ChargingStatusAC": false,
+  "deviceStatus.ChargingStatusSCC1": true,
+  "deviceStatus.SCCFirmwareVersion": false,
+  "deviceStatus.addSBUPriority": false,
+  "deviceStatus.batteryVoltageToSteadyWhileCharging": false,
+  "deviceStatus.configurationStatus": false,
+  "deviceStatus.loadStatus": true,
+  "inputVoltageRange": 0,
+  "inverterHeatSinkTemeperature": 38,
+  "machineType": " OffGrid",
+  "outputActivePower": 27,
+  "outputApparentPower": 69,
+  "outputLoadPercent": 1,
+  "outputMode": " Phase3Of3Phase",
+  "outputSourcePrio": "UtilityFirst",
+  "parallelMaxNum": 9,
+  "pvParallelCondition": "OneUnitHasPvConnectedOK",
+  "pvPowerBalance": " PvInputMaxPowerIsSumOfMaxChargedPowerAndLoadsPower",
+  "topology": "Transformerless"
+}
+[2020-05-08 09:12:14.230] [homeAutomationLogger] [debug] 
+Inverter [/dev/ttyUSB3][ Phase1Of3Phase]:
+[2020-05-08 09:12:14.230] [homeAutomationLogger] [debug] {
+  "ACOutputRatingActivePower": 5000,
+  "ACOutputRatingApparentPower": 5000,
+  "ACOutputRatingCurrent": 21.700000762939453,
+  "ACOutputRatingFrequency": 50.0,
+  "ACOutputRatingVoltage": 230.0,
+  "BUSVoltage": 350,
+  "PVChargingPower": 1253,
+  "PVInputCurrent": 23,
+  "PVInputVoltage": 196.39999389648438,
+  "batteryBulkVoltage": 50.400001525878906,
+  "batteryChargingCurrent": 23,
+  "batteryDischargeCurrent": 0,
+  "batteryFloatVoltage": 48.0,
+  "batteryRatingVoltage": 48.0,
+  "batteryReChargeVoltage": 44.0,
+  "batteryRedischargeVoltage": 48.0,
+  "batteryType": " User",
+  "batteryUnderVoltage": 40.0,
+  "batteryVoltage": 46,
+  "batteryVoltageFromSCC": 0.0,
+  "chargerSourcePrio": " OnlySolarChargingPermitted",
+  "currentMaxACChargingCurrent": 20,
+  "currentMaxChargingCurrent": 80,
+  "deviceStatus.ChargingStatus": false,
+  "deviceStatus.ChargingStatusAC": false,
+  "deviceStatus.ChargingStatusSCC1": true,
+  "deviceStatus.SCCFirmwareVersion": false,
+  "deviceStatus.addSBUPriority": false,
+  "deviceStatus.batteryVoltageToSteadyWhileCharging": false,
+  "deviceStatus.configurationStatus": false,
+  "deviceStatus.loadStatus": true,
+  "inputVoltageRange": 0,
+  "inverterHeatSinkTemeperature": 39,
+  "machineType": " OffGrid",
+  "outputActivePower": 86,
+  "outputApparentPower": 183,
+  "outputLoadPercent": 3,
+  "outputMode": " Phase1Of3Phase",
+  "outputSourcePrio": "UtilityFirst",
+  "parallelMaxNum": 9,
+  "pvParallelCondition": "OneUnitHasPvConnectedOK",
+  "pvPowerBalance": " PvInputMaxPowerIsSumOfMaxChargedPowerAndLoadsPower",
+  "topology": "Transformerless"
+}
+[2020-05-08 09:12:15.231] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:12:16.231] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:12:17.232] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:12:18.232] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:12:19.232] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:12:20.232] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:12:21.233] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:12:22.233] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:12:23.233] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:12:24.234] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:12:24.234] [homeAutomationLogger] [debug] 
+Inverter [/dev/ttyUSB4][SingleMachineOutput]:
+[2020-05-08 09:12:24.234] [homeAutomationLogger] [debug] {
+  "ACOutputRatingActivePower": 0,
+  "ACOutputRatingApparentPower": 0,
+  "ACOutputRatingCurrent": 0.0,
+  "ACOutputRatingFrequency": 0.0,
+  "ACOutputRatingVoltage": 0.0,
+  "BUSVoltage": 0,
+  "PVChargingPower": 0,
+  "PVInputCurrent": 0,
+  "PVInputVoltage": 0.0,
+  "batteryBulkVoltage": 0.0,
+  "batteryChargingCurrent": 0,
+  "batteryDischargeCurrent": 0,
+  "batteryFloatVoltage": 0.0,
+  "batteryRatingVoltage": 0.0,
+  "batteryReChargeVoltage": 0.0,
+  "batteryRedischargeVoltage": 0.0,
+  "batteryType": "AGM",
+  "batteryUnderVoltage": 0.0,
+  "batteryVoltage": 0,
+  "batteryVoltageFromSCC": 0.0,
+  "chargerSourcePrio": "UtilityFirst",
+  "currentMaxACChargingCurrent": 0,
+  "currentMaxChargingCurrent": 0,
+  "deviceStatus.ChargingStatus": false,
+  "deviceStatus.ChargingStatusAC": false,
+  "deviceStatus.ChargingStatusSCC1": false,
+  "deviceStatus.SCCFirmwareVersion": false,
+  "deviceStatus.addSBUPriority": false,
+  "deviceStatus.batteryVoltageToSteadyWhileCharging": false,
+  "deviceStatus.configurationStatus": false,
+  "deviceStatus.loadStatus": false,
+  "inputVoltageRange": 0,
+  "inverterHeatSinkTemeperature": 0,
+  "machineType": "GridTie",
+  "outputActivePower": 0,
+  "outputApparentPower": 0,
+  "outputLoadPercent": 0,
+  "outputMode": "SingleMachineOutput",
+  "outputSourcePrio": "UtilityFirst",
+  "parallelMaxNum": 0,
+  "pvParallelCondition": "OneUnitHasPvConnectedOK",
+  "pvPowerBalance": "PvInputMaxCurrentWillBeMaxChargedCurrent",
+  "topology": "Transformerless"
+}
+[2020-05-08 09:12:29.236] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:12:30.236] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:12:31.237] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:12:32.240] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:12:46.077] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:12:51.079] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:12:52.079] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:12:53.080] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:12:54.080] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:12:55.081] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:12:55.081] [homeAutomationLogger] [info] Turning ventilation on because battery gets loaded!
+[2020-05-08 09:13:00.082] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:13:01.082] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:13:02.083] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:13:03.083] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:13:04.083] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:13:09.085] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:13:10.086] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:13:11.086] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:13:12.086] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:13:13.087] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:13:13.087] [homeAutomationLogger] [info] Starting ElectrolytPump IsRunning : false BatteryIsLoading : true OneHourIsOver : true
+[2020-05-08 09:13:21.089] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:13:22.091] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:13:23.091] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:13:24.093] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:13:25.095] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:13:26.095] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:13:27.096] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:13:28.096] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:13:29.096] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:13:30.097] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:13:35.098] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:13:36.100] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:13:37.100] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:13:38.103] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:13:39.104] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:13:39.104] [homeAutomationLogger] [info] Turning ventilation on because battery gets loaded!
+[2020-05-08 09:13:44.105] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:13:45.109] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:13:46.109] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:13:47.110] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:13:48.110] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:13:53.112] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:13:54.112] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:13:55.112] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:13:56.113] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:13:57.113] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:14:02.115] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:14:03.116] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:14:04.116] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:14:05.116] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:14:06.117] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:14:11.118] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:14:12.119] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:14:13.119] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:14:14.120] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:14:15.120] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:14:15.121] [homeAutomationLogger] [info] Turning ventilation on because battery gets loaded!
+[2020-05-08 09:14:23.123] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:14:24.123] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:14:25.124] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:14:26.124] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:14:27.124] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:14:28.125] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:14:29.125] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:14:30.126] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:14:31.126] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:14:32.133] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:14:37.135] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:14:38.135] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:14:39.136] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:14:40.136] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:14:41.136] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:14:46.138] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:14:47.139] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:14:48.139] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:14:49.140] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:14:50.140] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:14:50.140] [homeAutomationLogger] [info] Turning ventilation on because battery gets loaded!
+[2020-05-08 09:14:55.142] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:14:56.143] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:14:57.143] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:14:58.143] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:14:59.144] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:15:04.146] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:15:05.146] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:15:06.147] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:15:07.147] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:15:08.147] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:15:13.149] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:15:14.150] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:15:15.150] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:15:16.151] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:15:17.151] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:15:25.154] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:15:26.154] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:15:27.155] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:15:28.155] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:15:29.155] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:15:30.156] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:15:31.156] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:15:32.157] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:15:33.157] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:15:34.158] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:15:34.158] [homeAutomationLogger] [info] Turning ventilation on because battery gets loaded!
+[2020-05-08 09:15:39.160] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:15:40.160] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:15:41.160] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:15:42.161] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:15:43.161] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:15:48.163] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:15:49.164] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:15:50.164] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:15:51.165] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:15:52.165] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:15:57.167] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:15:58.167] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:15:59.168] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:16:00.168] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:16:01.169] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:16:01.169] [homeAutomationLogger] [info] Turning ventilation on because battery gets loaded!
+[2020-05-08 09:16:06.171] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:16:07.171] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:16:08.172] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:16:09.172] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:16:10.173] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:16:15.175] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:16:16.175] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:16:17.175] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:16:18.176] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:16:19.176] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:16:27.179] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:16:28.180] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:16:29.180] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:16:30.180] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:16:31.181] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:16:32.181] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:16:33.182] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:16:34.182] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:16:35.182] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:16:36.183] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:16:41.185] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:16:42.186] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:16:43.186] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:16:44.186] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:16:45.187] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:16:45.187] [homeAutomationLogger] [info] Turning ventilation on because battery gets loaded!
+[2020-05-08 09:16:50.189] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:16:51.189] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:16:52.189] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:16:53.190] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:16:54.190] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:16:59.192] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:17:00.192] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:17:01.193] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:17:02.195] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:17:03.195] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:17:08.197] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:17:09.197] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:17:10.198] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:17:11.198] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:17:12.198] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:17:17.200] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:17:18.200] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:17:19.201] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:17:20.201] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:17:21.201] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:17:21.202] [homeAutomationLogger] [info] Turning ventilation on because battery gets loaded!
+[2020-05-08 09:17:29.204] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:17:30.205] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:17:31.205] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:17:32.205] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:17:33.206] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:17:34.206] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:17:35.206] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:17:36.207] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:17:37.207] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:17:38.207] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:17:43.209] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:17:44.209] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:17:45.210] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:17:46.210] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:17:47.211] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:17:52.212] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:17:53.212] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:17:54.213] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:17:55.213] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:17:56.213] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:17:56.214] [homeAutomationLogger] [info] Turning ventilation on because battery gets loaded!
+[2020-05-08 09:18:01.215] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:18:02.215] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:18:03.216] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:18:04.216] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:18:05.217] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:18:10.219] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:18:11.219] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:18:12.220] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:18:13.220] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:18:14.221] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:18:19.223] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:18:20.223] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:18:21.224] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:18:22.224] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:18:23.225] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:18:23.225] [homeAutomationLogger] [info] Stopping ElectrolytPump IsRunning : true BatteryIsLoading : true OneHourIsOver : false
+[2020-05-08 09:18:31.228] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:18:32.228] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:18:33.228] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:18:34.228] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:18:35.229] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:18:36.229] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:18:37.229] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:18:38.230] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:18:39.230] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:18:40.230] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:18:40.231] [homeAutomationLogger] [info] Turning ventilation on because battery gets loaded!
+[2020-05-08 09:18:45.232] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:18:46.232] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:18:47.233] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:18:48.233] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:18:49.233] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:18:54.235] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:18:55.236] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:18:56.236] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:18:57.236] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:18:58.237] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:19:03.238] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:19:04.239] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:19:05.239] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:19:06.240] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:19:07.240] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:19:07.240] [homeAutomationLogger] [info] Turning ventilation on because battery gets loaded!
+[2020-05-08 09:19:12.242] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:19:13.242] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:19:14.243] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:19:15.243] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:19:16.244] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:19:21.246] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:19:22.246] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:19:23.247] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:19:24.247] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:19:25.248] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:19:33.251] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:19:34.251] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:19:35.252] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:19:36.252] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:19:37.253] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:19:38.253] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:19:39.253] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:19:40.254] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:19:41.254] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:19:42.254] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:19:47.256] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:19:48.257] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:19:49.257] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:19:50.257] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:19:51.258] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:19:51.258] [homeAutomationLogger] [info] Turning ventilation on because battery gets loaded!
+[2020-05-08 09:19:56.259] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:19:57.260] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:19:58.260] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:19:59.260] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:20:00.261] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:20:05.262] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:20:06.263] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:20:07.263] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:20:08.263] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:20:09.264] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:20:14.265] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:20:15.266] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:20:16.266] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:20:17.267] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:20:18.267] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:20:23.269] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:20:24.269] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:20:25.270] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:20:26.270] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:20:27.270] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:20:27.271] [homeAutomationLogger] [info] Turning ventilation on because battery gets loaded!
+[2020-05-08 09:20:35.273] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:20:36.273] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:20:37.273] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:20:38.274] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:20:39.274] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:20:40.274] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:20:41.274] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:20:42.275] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:20:43.275] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:20:44.275] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:20:49.277] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:20:50.278] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:20:51.278] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:20:52.279] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:20:53.279] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:20:58.282] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:20:59.282] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:21:00.282] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:21:01.283] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:21:02.283] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:21:02.284] [homeAutomationLogger] [info] Turning ventilation on because battery gets loaded!
+[2020-05-08 09:21:07.286] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:21:08.286] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:21:09.286] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:21:10.287] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:21:11.287] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:21:16.290] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:21:17.290] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:21:18.290] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:21:19.291] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:21:20.291] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:21:25.293] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:21:26.293] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:21:27.294] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:21:28.294] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:21:29.295] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:21:37.298] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:21:38.298] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:21:39.299] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:21:40.299] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:21:41.299] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:21:42.300] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:21:43.300] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:21:44.301] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:21:45.301] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:21:46.301] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:21:46.302] [homeAutomationLogger] [info] Turning ventilation on because battery gets loaded!
+[2020-05-08 09:21:51.303] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:21:52.304] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:21:53.304] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:21:54.304] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:21:55.305] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:22:00.307] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:22:01.307] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:22:02.307] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:22:03.308] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:22:04.308] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:22:09.310] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:22:10.311] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:22:11.311] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:22:12.311] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:22:13.312] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:22:13.312] [homeAutomationLogger] [info] Turning ventilation on because battery gets loaded!
+[2020-05-08 09:22:15.312] [homeAutomationLogger] [debug] 
+Inverter [/dev/ttyUSB1][ Phase2Of3Phase]:
+[2020-05-08 09:22:15.313] [homeAutomationLogger] [debug] {
+  "ACOutputRatingActivePower": 5000,
+  "ACOutputRatingApparentPower": 5000,
+  "ACOutputRatingCurrent": 21.700000762939453,
+  "ACOutputRatingFrequency": 50.0,
+  "ACOutputRatingVoltage": 230.0,
+  "BUSVoltage": 350,
+  "PVChargingPower": 807,
+  "PVInputCurrent": 11,
+  "PVInputVoltage": 204.6999969482422,
+  "batteryBulkVoltage": 50.400001525878906,
+  "batteryChargingCurrent": 11,
+  "batteryDischargeCurrent": 0,
+  "batteryFloatVoltage": 48.0,
+  "batteryRatingVoltage": 48.0,
+  "batteryReChargeVoltage": 44.0,
+  "batteryRedischargeVoltage": 48.0,
+  "batteryType": " User",
+  "batteryUnderVoltage": 40.0,
+  "batteryVoltage": 47,
+  "batteryVoltageFromSCC": 0.0,
+  "chargerSourcePrio": " OnlySolarChargingPermitted",
+  "currentMaxACChargingCurrent": 30,
+  "currentMaxChargingCurrent": 60,
+  "deviceStatus.ChargingStatus": false,
+  "deviceStatus.ChargingStatusAC": false,
+  "deviceStatus.ChargingStatusSCC1": true,
+  "deviceStatus.SCCFirmwareVersion": false,
+  "deviceStatus.addSBUPriority": false,
+  "deviceStatus.batteryVoltageToSteadyWhileCharging": false,
+  "deviceStatus.configurationStatus": false,
+  "deviceStatus.loadStatus": true,
+  "inputVoltageRange": 0,
+  "inverterHeatSinkTemeperature": 38,
+  "machineType": " OffGrid",
+  "outputActivePower": 177,
+  "outputApparentPower": 649,
+  "outputLoadPercent": 12,
+  "outputMode": " Phase2Of3Phase",
+  "outputSourcePrio": "UtilityFirst",
+  "parallelMaxNum": 9,
+  "pvParallelCondition": "OneUnitHasPvConnectedOK",
+  "pvPowerBalance": " PvInputMaxPowerIsSumOfMaxChargedPowerAndLoadsPower",
+  "topology": "Transformerless"
+}
+[2020-05-08 09:22:16.313] [homeAutomationLogger] [debug] 
+Inverter [/dev/ttyUSB2][ Phase3Of3Phase]:
+[2020-05-08 09:22:16.314] [homeAutomationLogger] [debug] {
+  "ACOutputRatingActivePower": 5000,
+  "ACOutputRatingApparentPower": 5000,
+  "ACOutputRatingCurrent": 21.700000762939453,
+  "ACOutputRatingFrequency": 50.0,
+  "ACOutputRatingVoltage": 230.0,
+  "BUSVoltage": 350,
+  "PVChargingPower": 760,
+  "PVInputCurrent": 15,
+  "PVInputVoltage": 201.6999969482422,
+  "batteryBulkVoltage": 50.400001525878906,
+  "batteryChargingCurrent": 15,
+  "batteryDischargeCurrent": 0,
+  "batteryFloatVoltage": 48.0,
+  "batteryRatingVoltage": 48.0,
+  "batteryReChargeVoltage": 44.0,
+  "batteryRedischargeVoltage": 48.0,
+  "batteryType": " User",
+  "batteryUnderVoltage": 40.0,
+  "batteryVoltage": 47,
+  "batteryVoltageFromSCC": 0.0,
+  "chargerSourcePrio": " OnlySolarChargingPermitted",
+  "currentMaxACChargingCurrent": 30,
+  "currentMaxChargingCurrent": 80,
+  "deviceStatus.ChargingStatus": false,
+  "deviceStatus.ChargingStatusAC": false,
+  "deviceStatus.ChargingStatusSCC1": true,
+  "deviceStatus.SCCFirmwareVersion": false,
+  "deviceStatus.addSBUPriority": false,
+  "deviceStatus.batteryVoltageToSteadyWhileCharging": false,
+  "deviceStatus.configurationStatus": false,
+  "deviceStatus.loadStatus": true,
+  "inputVoltageRange": 0,
+  "inverterHeatSinkTemeperature": 39,
+  "machineType": " OffGrid",
+  "outputActivePower": 24,
+  "outputApparentPower": 69,
+  "outputLoadPercent": 1,
+  "outputMode": " Phase3Of3Phase",
+  "outputSourcePrio": "UtilityFirst",
+  "parallelMaxNum": 9,
+  "pvParallelCondition": "OneUnitHasPvConnectedOK",
+  "pvPowerBalance": " PvInputMaxPowerIsSumOfMaxChargedPowerAndLoadsPower",
+  "topology": "Transformerless"
+}
+[2020-05-08 09:22:17.314] [homeAutomationLogger] [debug] 
+Inverter [/dev/ttyUSB3][ Phase1Of3Phase]:
+[2020-05-08 09:22:17.315] [homeAutomationLogger] [debug] {
+  "ACOutputRatingActivePower": 5000,
+  "ACOutputRatingApparentPower": 5000,
+  "ACOutputRatingCurrent": 21.700000762939453,
+  "ACOutputRatingFrequency": 50.0,
+  "ACOutputRatingVoltage": 230.0,
+  "BUSVoltage": 349,
+  "PVChargingPower": 1846,
+  "PVInputCurrent": 33,
+  "PVInputVoltage": 228.39999389648438,
+  "batteryBulkVoltage": 50.400001525878906,
+  "batteryChargingCurrent": 33,
+  "batteryDischargeCurrent": 0,
+  "batteryFloatVoltage": 48.0,
+  "batteryRatingVoltage": 48.0,
+  "batteryReChargeVoltage": 44.0,
+  "batteryRedischargeVoltage": 48.0,
+  "batteryType": " User",
+  "batteryUnderVoltage": 40.0,
+  "batteryVoltage": 47,
+  "batteryVoltageFromSCC": 0.0,
+  "chargerSourcePrio": " OnlySolarChargingPermitted",
+  "currentMaxACChargingCurrent": 20,
+  "currentMaxChargingCurrent": 80,
+  "deviceStatus.ChargingStatus": false,
+  "deviceStatus.ChargingStatusAC": false,
+  "deviceStatus.ChargingStatusSCC1": true,
+  "deviceStatus.SCCFirmwareVersion": false,
+  "deviceStatus.addSBUPriority": false,
+  "deviceStatus.batteryVoltageToSteadyWhileCharging": false,
+  "deviceStatus.configurationStatus": false,
+  "deviceStatus.loadStatus": true,
+  "inputVoltageRange": 0,
+  "inverterHeatSinkTemeperature": 40,
+  "machineType": " OffGrid",
+  "outputActivePower": 93,
+  "outputApparentPower": 230,
+  "outputLoadPercent": 4,
+  "outputMode": " Phase1Of3Phase",
+  "outputSourcePrio": "UtilityFirst",
+  "parallelMaxNum": 9,
+  "pvParallelCondition": "OneUnitHasPvConnectedOK",
+  "pvPowerBalance": " PvInputMaxPowerIsSumOfMaxChargedPowerAndLoadsPower",
+  "topology": "Transformerless"
+}
+[2020-05-08 09:22:18.315] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:22:19.315] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:22:20.316] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:22:21.316] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:22:22.316] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:22:27.318] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:22:28.318] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:22:29.319] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:22:30.319] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:22:31.319] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:22:31.320] [homeAutomationLogger] [debug] 
+Inverter [/dev/ttyUSB4][SingleMachineOutput]:
+[2020-05-08 09:22:31.320] [homeAutomationLogger] [debug] {
+  "ACOutputRatingActivePower": 0,
+  "ACOutputRatingApparentPower": 0,
+  "ACOutputRatingCurrent": 0.0,
+  "ACOutputRatingFrequency": 0.0,
+  "ACOutputRatingVoltage": 0.0,
+  "BUSVoltage": 0,
+  "PVChargingPower": 0,
+  "PVInputCurrent": 0,
+  "PVInputVoltage": 0.0,
+  "batteryBulkVoltage": 0.0,
+  "batteryChargingCurrent": 0,
+  "batteryDischargeCurrent": 0,
+  "batteryFloatVoltage": 0.0,
+  "batteryRatingVoltage": 0.0,
+  "batteryReChargeVoltage": 0.0,
+  "batteryRedischargeVoltage": 0.0,
+  "batteryType": "AGM",
+  "batteryUnderVoltage": 0.0,
+  "batteryVoltage": 0,
+  "batteryVoltageFromSCC": 0.0,
+  "chargerSourcePrio": "UtilityFirst",
+  "currentMaxACChargingCurrent": 0,
+  "currentMaxChargingCurrent": 0,
+  "deviceStatus.ChargingStatus": false,
+  "deviceStatus.ChargingStatusAC": false,
+  "deviceStatus.ChargingStatusSCC1": false,
+  "deviceStatus.SCCFirmwareVersion": false,
+  "deviceStatus.addSBUPriority": false,
+  "deviceStatus.batteryVoltageToSteadyWhileCharging": false,
+  "deviceStatus.configurationStatus": false,
+  "deviceStatus.loadStatus": false,
+  "inputVoltageRange": 0,
+  "inverterHeatSinkTemeperature": 0,
+  "machineType": "GridTie",
+  "outputActivePower": 0,
+  "outputApparentPower": 0,
+  "outputLoadPercent": 0,
+  "outputMode": "SingleMachineOutput",
+  "outputSourcePrio": "UtilityFirst",
+  "parallelMaxNum": 0,
+  "pvParallelCondition": "OneUnitHasPvConnectedOK",
+  "pvPowerBalance": "PvInputMaxCurrentWillBeMaxChargedCurrent",
+  "topology": "Transformerless"
+}
+[2020-05-08 09:22:39.323] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:22:40.323] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:22:41.324] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:22:42.324] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:22:43.324] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:22:44.325] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:22:45.325] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:22:46.326] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:22:47.326] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:22:48.326] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:22:53.328] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:22:54.329] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:22:55.329] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:22:56.330] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:22:57.330] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:22:57.330] [homeAutomationLogger] [info] Turning ventilation on because battery gets loaded!
+[2020-05-08 09:23:02.332] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:23:03.333] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:23:04.333] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:23:05.333] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:23:06.334] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:23:11.336] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:23:12.336] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:23:13.337] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:23:14.337] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:23:15.338] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:23:20.339] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:23:21.341] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:23:22.341] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:23:23.341] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:23:24.342] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:23:29.344] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:23:30.344] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:23:31.345] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:23:32.345] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:23:33.345] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:23:33.346] [homeAutomationLogger] [info] Turning ventilation on because battery gets loaded!
+[2020-05-08 09:23:41.349] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:23:42.349] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:23:43.349] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:23:44.350] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:23:45.352] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:23:46.354] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:23:47.357] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:23:48.359] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:23:49.363] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:23:50.363] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:23:55.369] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:23:56.374] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:23:57.378] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:23:58.379] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:23:59.379] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:24:04.381] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:24:05.381] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:24:06.382] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:24:07.382] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:24:08.382] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:24:08.383] [homeAutomationLogger] [info] Turning ventilation on because battery gets loaded!
+[2020-05-08 09:24:13.384] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:24:14.385] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:24:15.385] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:24:16.385] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:24:17.385] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:24:22.387] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:24:23.387] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:24:24.388] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:24:25.388] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:24:26.388] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:24:31.390] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:24:32.390] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:24:33.391] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:24:34.391] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:24:35.392] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:24:43.394] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:24:44.394] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:24:45.395] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:24:46.395] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:24:47.395] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:24:48.396] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:24:49.396] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:24:50.396] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:24:51.397] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:24:52.397] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:24:52.397] [homeAutomationLogger] [info] Turning ventilation on because battery gets loaded!
+[2020-05-08 09:24:57.399] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:24:58.399] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:24:59.399] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:25:00.400] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:25:01.400] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:25:06.402] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:25:07.402] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:25:08.402] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:25:09.403] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:25:10.403] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:25:15.405] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:25:16.405] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:25:17.405] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:25:18.406] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:25:19.406] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:25:19.406] [homeAutomationLogger] [info] Turning ventilation on because battery gets loaded!
+[2020-05-08 09:25:24.408] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:25:25.408] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:25:26.409] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:25:27.409] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:25:28.409] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:25:33.411] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:25:34.411] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:25:35.412] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:25:36.412] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:25:37.412] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:25:45.415] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:25:46.415] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:25:47.415] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:25:48.416] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:25:49.416] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:25:50.416] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:25:51.417] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:25:52.417] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:25:53.417] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:25:54.418] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:25:59.420] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:26:00.420] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:26:01.420] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:26:02.421] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:26:03.421] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:26:03.421] [homeAutomationLogger] [info] Turning ventilation on because battery gets loaded!
+[2020-05-08 09:26:08.423] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:26:09.423] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:26:10.423] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:26:11.424] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:26:12.424] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:26:17.425] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:26:18.426] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:26:19.426] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:26:20.426] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:26:21.427] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:26:26.428] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:26:27.429] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:26:28.429] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:26:29.430] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:26:30.430] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:26:35.432] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:26:36.432] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:26:37.433] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:26:38.433] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:26:39.434] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:26:39.434] [homeAutomationLogger] [info] Turning ventilation on because battery gets loaded!
+[2020-05-08 09:26:47.437] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:26:48.437] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:26:49.438] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:26:50.438] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:26:51.438] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:26:52.439] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:26:53.439] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:26:54.439] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:26:55.440] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:26:56.440] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:27:01.442] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:27:02.442] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:27:03.443] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:27:04.443] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:27:05.444] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:27:10.446] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:27:11.446] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:27:12.447] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:27:13.447] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:27:14.447] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:27:14.448] [homeAutomationLogger] [info] Turning ventilation on because battery gets loaded!
+[2020-05-08 09:27:19.450] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:27:20.450] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:27:21.450] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:27:22.451] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:27:23.451] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:27:28.453] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:27:29.454] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:27:30.454] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:27:31.455] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:27:32.455] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:27:37.457] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:27:38.457] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:27:39.458] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:27:40.458] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:27:41.459] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:27:49.462] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:27:50.462] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:27:51.462] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:27:52.462] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:27:53.463] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:27:54.463] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:27:55.463] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:27:56.464] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:27:57.464] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:27:58.464] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIRI request!!
+[2020-05-08 09:27:58.465] [homeAutomationLogger] [info] Turning ventilation on because battery gets loaded!
+[2020-05-08 09:28:03.466] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:28:04.466] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:28:05.467] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:28:06.467] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:28:07.467] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:28:12.469] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:28:13.470] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:28:14.470] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:28:15.470] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-08 09:28:16.471] [homeAutomationLogger] [error] Invalid result from inverter [/dev/ttyUSB4] for QPIGS request!!
+[2020-05-
